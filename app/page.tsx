@@ -1,10 +1,4 @@
-import { SignInButton } from "@clerk/nextjs";
-
 const HomePage = () => {
-  return (
-    <div>
-      <SignInButton />
-    </div>
-  );
+  return <div>HomePage</div>;
 };
 export default HomePage;
